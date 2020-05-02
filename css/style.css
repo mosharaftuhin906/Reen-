@@ -1,0 +1,494 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;;
+	font-weight: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/******************************************
+     ** global css for this title start **
+******************************************/
+ .title{
+ 	width: 100%;
+
+ 	padding: 0px 0px 50px;
+ 	text-align: center;
+ }
+ .innner-slider h1{
+	font-size: 48px;
+	color: #506a85;
+	font-weight: 700;
+	outline-width: 58px;
+	letter-spacing: 2px;
+}
+.innner-slider p{
+	font-size: 15px;
+	color: #a3b1bf;
+	font-weight: 700;
+	outline-width: 25px;
+}
+/******************************************
+     ** global css for this title end**
+******************************************/
+
+/******************************************
+     ** header-section code start **
+******************************************/
+.header-section{
+	width: 100%;
+}
+.header-section .top-header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #f5f7fa;
+}
+.header-section .top-header .details{
+	margin: 0px;
+}
+.header-section .top-header .details li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-section .top-header .details li a{
+    font-size: 13px;
+    color: #00bc9c;
+    font-weight: 400;}
+.header-section .top-header .details li a:hover{
+    color: #fff;
+}
+.header-section .top-header .details li a li {
+	margin-right: 5px;
+}
+.header-section .top-header .details .fa{
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 5px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.header-section .top-header .details ul li a i{
+	margin-right: 5px;
+}
+
+/******************************************
+     ** header-section code end **
+******************************************/
+
+/******************************************
+     ** social-icons code start **
+******************************************/
+.social-icons{
+	width: 100%;
+	text-align: right;
+}
+.social-icons ul{
+	display: block;
+	margin: 0px;
+}
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.social-icons ul li a{
+	font-size: 15px;
+	color: #506ab5;
+	margin-left: 15px; 
+}	
+.social-icons ul li a:hover{
+	color: #fff;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+	padding: 0px 0px;
+}
+.main-menu .bg-light img {
+    vertical-align: middle;
+    border-style: none;
+    padding: 8px 0px 8px;
+}
+.main-menu .navbar-nav{
+	margin-left: 25px;
+
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #506AB5;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #506AB5;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.main-menu .fa{
+	font-size: 14px;
+	color: #999;
+}
+/******************************************
+     ** social-icons code end **
+******************************************/
+
+/******************************************
+           ** slider code start **
+******************************************/
+
+.slider{
+	width: 100%;
+}
+.slider .container-fluid{
+	padding: 0px;
+}
+.innner-slider{
+	width: 100%;
+}
+.slider .carousel-caption{
+	bottom: 30%;
+}
+.innner-slider h1{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 700;
+	outline-width: 58px;
+	letter-spacing: 2px;
+}
+.innner-slider p{
+	font-size: 16px;
+	color: #a3b1bf;
+	font-weight: 700;
+	outline-width: 26px;
+}
+.innner-slider .btn-info{
+	padding: 10px 35px;
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: #00bc9c;
+	color: #fff;
+	border: 1px solid #00bc9c;
+}
+.innner-slider .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	transition: 1s;
+/******************************************
+           ** slider code end **
+******************************************/
+
+/******************************************
+           ** about code start **
+******************************************/
+}
+.about{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-ab{
+	width: 100%;
+	padding: 20px 0px;
+}
+.title p {
+    font-size: 16px;
+    color: #73879c;
+    font-weight: 500;
+    line-height: 26px;
+}
+.title h2{
+	font-size: 30px;
+	color: #506a85;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 20px;
+	
+}
+.inner-ab .media-body p{
+	font-size: 15px;
+	color: #73879c;
+	font-weight: 400;
+	line-height: 24px;
+
+}
+.inner-ab .media-body h5{
+	font-size: 22px;
+	color: #8897a8;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+
+/******************************************
+           ** about code end **
+******************************************/
+
+/******************************************
+        ** latest-work code start **
+******************************************/	
+}
+.latest-work{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.latest-work .card{
+	text-align: center;
+	border-radius: 2px;
+}
+.latest-work .card-title {
+    font-size: 16px;
+    color: #8897a8;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+.latest-work .card .card-text{
+	font-size: 15px;
+	color: #73879c;
+	font-weight: 400;
+	line-height: 24px;
+
+}
+.latest-work .owl-carousel{
+    padding-top: 80px;
+}
+.latest-work .owl-carousel .item{
+	border: 1px solid #00bc9c;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    margin: 30px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    background: #00bc9c;
+
+}
+/******************************************
+        ** latest-work code end **
+******************************************/	
+
+/******************************************
+         ** work code start **
+******************************************/	
+.work{
+	width: 100%;
+	padding: 140px 0px;
+
+}
+.title h2{
+	font-size: 30px;
+	color: #506a85;
+	font-weight: 600;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.title p {
+    font-size: 16px;
+    color: #73879c;
+    font-weight: 500;
+    line-height: 26px;
+}
+.work .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	transition: 1s;
+}
+/******************************************
+         ** work code end **
+******************************************/
+
+/******************************************
+          ** footer code start **
+******************************************/	
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+	color: #fff;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    padding: 0px 0px 20px;
+}
+.widget-1, .widget-2, .widget-3, .widget-4{
+	width: 100%;
+}
+.widget-1 h4, .widget-2 h4, .widget-3 h4, .widget-4 h4{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}.widget-1 a{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #9caab9;
+}
+.widget-1 a i {
+    color: #9caab9;
+    margin: 8px 5px;
+    font-size: 12px;
+}
+.widget-1 a{
+	margin-bottom: 10px !important;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #9caab9;
+}
+.footer .card-img, .footer .card-img-top{
+	border-radius: 0px;
+}
+.footer .card{
+	border: 0px solid #fff;
+}
+.footer .col{
+	padding: 0px 5px 0px 5px;
+}
+.footer .card{
+	margin-bottom: 10px !important;
+}
+/******************************************
+          ** footer code end **
+******************************************/	
+
+/******************************************
+          ** widget code start **
+******************************************/	
+.widget-3 ul{
+	width: 100%;
+}
+.widget-3 ul li{
+	list-style: none;
+	font-size: 14px;
+	line-height: 24px;
+	color: #9caab9;
+}
+.footer .widget-3 ul li i {
+    color: #9caab9;
+    font-size: 16px;
+    margin-right: 8px;
+    background: transparent;
+}
+.widget-4 .btn-info{
+    position: absolute;
+    color: #fff;
+    background-color: #00bc9c;
+    border-color: #17a2b8;
+    text-transform: uppercase;
+    right: 0px;
+    padding: 7px 8px;
+    font-size: 14px;
+}
+.widget-4 .form-control {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    background-color: #4e5c6c;
+    border: 0px solid #ced4da;
+    border-radius: 4px;
+}
+.widget-4 .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	transition: 1s
+}
+/******************************************
+          ** widget code end **
+******************************************/	
+
+/******************************************
+        ** footer-down  code start **
+******************************************/	
+.footer-down .inner-left{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+.footer .card-img, .footer .card-img-top{
+    border-radius: 0px;
+    padding: 0px;
+}
+.footer-down {
+    background-color: #283645;
+}
+.footer-down .inner-left {
+    width: 100%;
+    float: left;
+    background:  #283645;
+    padding: 24px 0px;
+}
+.footer-down .inner-right ul {
+    padding: 0px;
+    list-style: none;
+}
+.inner-left p {
+    color: #707e8c;
+}
+.footer-down .inner-right ul li {
+    display: inline-block;
+}
+.footer-down .inner-right ul li a {
+    color: #707e8c;
+    text-decoration: none;
+    display: block;
+    padding: 24px 4px;
+}
+.footer-down .inner-right ul li a:hover{
+	color: #fff;
+}
+/******************************************
+        ** footer-down  code end **
+******************************************/	
+
+/*plugin code goes here*/
+
+/*stickup css code start*/
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #f5f7fa;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #00bc9c;
+    display: block;
+    padding: 2px 6px;
+}
